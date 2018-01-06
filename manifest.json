@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Battery Status",
+  "description": "This extension alerts users when their battery reaches 100%",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "notifications"
+  ],
+  "background":{
+    "scripts":["popup.js"]
+  }
+}
